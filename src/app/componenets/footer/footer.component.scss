@@ -1,0 +1,12 @@
+@use '~material-bottom-nav' as bottom-nav;
+
+.bottom-nav {
+  @include bottom-nav.root(
+    $background-color: #FFFFFF,
+    $active-color: #503adb,
+    $inactive-color: #404040
+  );
+  box-shadow: none;
+  border-top: none;
+  margin-bottom: 5px;
+}
