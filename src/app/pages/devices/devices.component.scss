@@ -1,5 +1,11 @@
+.content-header{
+    margin-bottom: 30px;
+}
+
 .header-title{
     text-align: center;
+    font-size: 20px;
+    margin-bottom: 0px;
 }
 
 .h-icon {
@@ -9,7 +15,40 @@
 }
 
 .header-icon {
-    width: 3em;
-    height: 3em;
+    width: 2.5em;
+    height: 2.5em;
     float: right;
+}
+
+.card .card-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-header {
+    padding: 2rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.device-icon {
+    text-align: center;
+}
+
+.circle-icon {
+    background: #ffffff;
+    border: 1px solid #3a75db;
+    color: #3a75db;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+.bottom-icon {
+    width: 2em;
 }

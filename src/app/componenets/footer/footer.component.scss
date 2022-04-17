@@ -3,7 +3,7 @@
 .bottom-nav {
   @include bottom-nav.root(
     $background-color: #FFFFFF,
-    $active-color: #503adb,
+    $active-color: #3a75db,
     $inactive-color: #404040
   );
   box-shadow: none;
