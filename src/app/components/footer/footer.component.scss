@@ -3,10 +3,11 @@
 .bottom-nav {
   @include bottom-nav.root(
     $background-color: #FFFFFF,
-    $active-color: #3a75db,
+    $active-color: #4784ee,
     $inactive-color: #404040
   );
   box-shadow: none;
   border-top: none;
   margin-bottom: 5px;
 }
+
