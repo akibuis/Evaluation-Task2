@@ -15,6 +15,7 @@ import { HelpComponent } from './pages/help/help.component';
 import { DeviceDetailsComponent } from './pages/device-details/device-details.component';
 import { DeviceComponent } from './layouts/device/device.component';
 import { Footer2Component } from './components/footer2/footer2.component';
+import { HelpLayoutComponent } from './layouts/help-layout/help-layout.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { Footer2Component } from './components/footer2/footer2.component';
     HelpComponent,
     DeviceDetailsComponent,
     DeviceComponent,
-    Footer2Component
+    Footer2Component,
+    HelpLayoutComponent
   ],
   imports: [
     BrowserModule,

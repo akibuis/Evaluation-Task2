@@ -21,7 +21,6 @@ a {
 .h-icon {
     position: absolute;
     right: 0;
-    left: 25px;
     top: 12px;
 }
 
@@ -29,6 +28,7 @@ a {
     width: 2.5em;
     height: 2.5em;
     float: left;
+    margin-left: 25px;
 }
 
 

@@ -1,0 +1,107 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.content-header{
+    margin-bottom: 30px;
+}
+
+.header-title{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.h-icon {
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+
+.header-icon {
+    width: 2.5em;
+    height: 2.5em;
+    float: left;
+    margin-left: 25px;
+}
+
+.card{
+    border: 0px;
+    border-radius: 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.card .card-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-icon {
+    float: right;
+}
+
+.card-header {
+    padding: 1rem;
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 0px;
+}
+
+.device-icon {
+    text-align: center;
+}
+
+.circle-icon {
+    background: #6798ed;
+    border: aliceblue;
+    color: #ffffff;
+    padding: 19px;
+    border-radius: 50%;
+    font-size: 55px;
+    width: 100px;
+    height: 100px;
+}
+.circle-icon2 {
+    background: #55aad8;
+    border: aliceblue;
+    color: #ffffff;
+    padding: 19px;
+    border-radius: 50%;
+    font-size: 55px;
+    width: 100px;
+    height: 100px;
+}
+.circle-icon3 {
+    background: #ad92ed;
+    border: aliceblue;
+    color: #ffffff;
+    padding: 19px;
+    border-radius: 50%;
+    font-size: 55px;
+    width: 100px;
+    height: 100px;
+}
+.circle-icon4 {
+    background: #eddd67;
+    border: aliceblue;
+    color: #ffffff;
+    padding: 19px;
+    border-radius: 50%;
+    font-size: 55px;
+    width: 100px;
+    height: 100px;
+}
+.device-title {
+    margin-bottom: 2px;
+    font-weight: 400;
+    font-size: 19px;
+}

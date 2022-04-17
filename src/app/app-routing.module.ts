@@ -5,6 +5,7 @@ import { DeviceComponent } from './layouts/device/device.component';
 import { DeviceDetailsComponent } from './pages/device-details/device-details.component';
 import { DevicesComponent } from './pages/devices/devices.component';
 import { HelpComponent } from './pages/help/help.component';
+import { HelpLayoutComponent } from './layouts/help-layout/help-layout.component';
 
 const routes: Routes = [
   { path: "", redirectTo: "/devices", pathMatch: "full" },
@@ -12,13 +13,19 @@ const routes: Routes = [
     path: "", component: SimpleComponent,
     children:[
       { path: "devices", component: DevicesComponent },
-      { path: "help", component: HelpComponent },
+      
     ]
   },
   { 
     path: "", component: DeviceComponent,
     children:[
       { path: "device-details", component: DeviceDetailsComponent },
+    ]
+  },
+  { 
+    path: "", component: HelpLayoutComponent,
+    children:[
+      { path: "help", component: HelpComponent },
     ]
   },
 ];
